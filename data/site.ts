@@ -43,20 +43,33 @@ export const site = {
   },
   experiences: [
     {
-      period: '2021',
-      title: 'Software Engineer - Internship',
+      period: '2022 - now',
+      title: 'Full-stack Engineer and plattform Administrator',
+      company: 'Siedelwood',
+      summary:
+        'Maintainment and development of the plattform in Front- and Backend, inlcuding game software and libraries',
+      highlights: [
+        'Designed components and UI interactions with Javascript, HTML + CSS, PHP and SQL',
+        'Maintained and developed the QSB (Quest System Library) for The Settlers 6 in Lua + Documentation', 
+        'Maintained the Siedelwood Discord and helped other users as a supporter',
+      ],
+      tech: ['Javascript/Typescript', 'PHP', 'HTML + CSS', 'SQL', 'Wordpress', 'Lua', 'Discord']
+    },
+    {
+      period: '2021 - 2022',
+      title: 'Full-stack Engineer',
       company: 'IT-Designers',
       summary:
         'Built a prototype of the E-prescription based on Hyperledger-Fabric Blockchain, including Front- and Backend.',
       highlights: [
         'Designed the complete application using VueJS, ExpressJS, Hyperledger-Fabric Blockchain',
-        'Crafted self-explaining layouts and accessible UI with reuseable compontents.', 
+        'Crafted self-explaining layouts and accessible UI with reuseable compontents', 
         'Shipped everything as a standalone cross-plattform executable with build-in verification using NeutralinoJS',
       ],
       tech: ['TypeScript', 'VueJS', 'ExpressJS', 'Node', 'Vite', 'Hyperledger-Fabric', 'Blockchain', 'NeutralinoJS'],
     },
     {
-      period: '2024',
+      period: '2020',
       title: 'Frontend Architect',
       company: 'Nova Launch',
       summary:
