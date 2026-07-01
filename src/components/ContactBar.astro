@@ -11,22 +11,29 @@ import { Icon } from 'astro-icon/components';
     rel="noreferrer"
     aria-label="GitHub"
   >
-    <Icon name="ph:github-logo" class="h-6 w-6" />
+    <Icon name="ph:github-logo" class="h-8 w-8" />
   </a>
   <a
-    href={site.contact.linkedin}
+    href={site.contact.steam}
     class="subtle-link inline-flex h-9 w-9 items-center justify-center rounded"
     target="_blank"
     rel="noreferrer"
-    aria-label="LinkedIn"
+    aria-label="Steam"
   >
-    <Icon name="ph:linkedin-logo" class="h-6 w-6" />
+    <Icon name="ph:steam-logo" class="h-8 w-8" />
   </a>
   <a
     href={`mailto:${site.contact.email}`}
     class="subtle-link inline-flex h-9 w-9 items-center justify-center rounded"
     aria-label="Email"
   >
-    <Icon name="ph:envelope-simple" class="h-6 w-6" />
+    <Icon name="ph:envelope-simple" class="h-8 w-8" />
+  </a>
+  <a
+    href={`${site.contact.discord}`}
+    class="subtle-link inline-flex h-9 w-9 items-center justify-center rounded"
+    aria-label="Discord"
+  >
+    <Icon name="ph:discord-logo" class="h-8 w-8" />
   </a>
 </div>

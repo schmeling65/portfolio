@@ -11,49 +11,49 @@
 export const site = {
   url: 'https://example.com',
   meta: {
-    title: 'Alex Morgan | Full-stack engineer',
+    title: 'Markus Rumpel | Full-stack and Software engineer',
     description:
-      'Portfolio example: shipping reliable web products with clear architecture, tests, and delivery practices.',
+      'Portfolio: Creating reliable products with a heart of useability.',
   },
   hero: {
-    name: 'Alex Morgan',
-    role: 'Full-stack engineer',
-    tagline: 'From product intent to production — pragmatic systems, accessible UI, and maintainable code.',
-    contact: 'Open to collaborations and senior IC roles on product-minded teams.',
-    avatarSrc: '/favicon.svg',
-    avatarAlt: 'Alex Morgan',
+    name: 'Markus Rumpel',
+    role: 'Full-stack & Software engineer',
+    tagline: 'From experimentation to execution; fresh concepts, accessible design, and systems that evolve.',
+    contact: 'Contact me via',
+    avatarSrc: '/profilimg.png',
+    avatarAlt: 'Markus Rumpel',
   },
   about: {
     paragraphs: [
-      'A brief, compelling introduction about who you are and what you do. Mention your core philosophy, your passion for building digital products, and your drive for creating efficient, high-impact solutions.',
-      'I care about clear boundaries between modules, automated checks in CI, and documentation that helps the next contributor ship safely.',
+      'I build digital worlds with a strong focus on games, content experiences, and intuitive useability. I love working on new ideas and techniques, constantly experimenting and integrating them into my projects — and I\'m equally driven to help push them forward. My philosophy is simple: Problems exist to be solved, and multitasking feels as natural as breathing.',
+      'I believe long-lasting products come from clear, maintainable code, thoughtful design, and a relentless desire to explore new fields and improve. I create systems that are efficient, scalable, and impactful — solutions that elevate the experience for players and developers alike.',
       {
-        heading: 'Example focus areas',
+        heading: 'Focus areas',
         bullets: [
-          'Designing APIs and client boundaries with typed contracts',
-          'Performance budgets, caching, and pragmatic observability',
-          'Shipping incrementally with feature flags and rollback-friendly deploys',
+          'Web front- and backend development on a modular base',
+          'Game Development in- and outside of games',
+          'User friendly and visually appealing UI',
         ],
       },
       {
-        heading: 'Sample stack',
-        techItems: ['TypeScript', 'Astro', 'Tailwind CSS', 'Node', 'Vitest'],
+        heading: 'Technologies',
+        techItems: ['TypeScript', 'Lua', 'Node / Vite', 'Game Tech', 'C# '],
       },
     ],
   },
   experiences: [
     {
-      period: '2025',
-      title: 'Lead Product Designer',
-      company: 'Lumen Studio',
+      period: '2021',
+      title: 'Software Engineer - Internship',
+      company: 'IT-Designers',
       summary:
-        'Built a polished portfolio experience with accessible UI, motion-led interactions, and reusable components.',
+        'Built a prototype of the E-prescription based on Hyperledger-Fabric Blockchain, including Front- and Backend.',
       highlights: [
-        'Designed and shipped the complete website using Astro, Tailwind CSS, and content-driven components',
-        'Crafted consistent responsive layouts and accessible typography across desktop and mobile',
-        'Optimized asset delivery and performance for sub-1s page load metrics',
+        'Designed the complete application using VueJS, ExpressJS, Hyperledger-Fabric Blockchain',
+        'Crafted self-explaining layouts and accessible UI with reuseable compontents.', 
+        'Shipped everything as a standalone cross-plattform executable with build-in verification using NeutralinoJS',
       ],
-      tech: ['TypeScript', 'Astro', 'Tailwind CSS', 'Node', 'Vite'],
+      tech: ['TypeScript', 'VueJS', 'ExpressJS', 'Node', 'Vite', 'Hyperledger-Fabric', 'Blockchain', 'NeutralinoJS'],
     },
     {
       period: '2024',
@@ -135,10 +135,11 @@ export const site = {
     { date: '2023', project: 'Mobile web refresh', role: 'Frontend', techStack: 'HTML, CSS, a11y audits' },
   ],
   contact: {
-    email: 'hello@example.com',
-    github: 'https://github.com/',
-    linkedin: 'https://www.linkedin.com/',
-  },
+    email: 'markusrumpel2@gmail.com',
+    github: 'https://github.com/schmeling65',
+    steam: 'https://steamcommunity.com/id/schmeling65/',
+    discord: "https://discord.com/users/360470770012520448"
+    },
 } as const;
 
 export type ProjectArchiveRow = (typeof site.projectArchive)[number];
