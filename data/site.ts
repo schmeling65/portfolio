@@ -44,57 +44,175 @@ export const site = {
   experiences: [
     {
       period: '2022 - now',
-      title: 'Full-stack Engineer and plattform Administrator',
+      title: 'Platform Administrator & Developer',
       company: 'Siedelwood',
       summary:
-        'Maintainment and development of the plattform in Front- and Backend, inlcuding game software and libraries',
+        'Responsible for administration, development, and continuous maintenance of the Siedelwood ecosystem, including Discord infrastructure, website frontend/backend, and custom applications and libraries for game integrations.',
       highlights: [
-        'Designed components and UI interactions with Javascript, HTML + CSS, PHP and SQL',
-        'Maintained and developed the QSB (Quest System Library) for The Settlers 6 in Lua + Documentation', 
-        'Maintained the Siedelwood Discord and helped other users as a supporter',
+        'Maintained and expanded the Siedelwood Discord platform with automated moderation tools, custom bots, and community-driven features',
+        'Developed and updated the website frontend and backend, including WordPress-based modules, PHP logic, and SQL-driven data structures', 
+        'Built and maintained game-related applications and Lua-based libraries to support gameplay features and server functionality',
+        'Implemented reusable UI components and optimized frontend structures using HTML, CSS, JavaScript, and TypeScript',
+        'Ensured stable platform operations through continuous monitoring, debugging, and performance improvements across all systems'
       ],
       tech: ['Javascript/Typescript', 'PHP', 'HTML + CSS', 'SQL', 'Wordpress', 'Lua', 'Discord']
     },
     {
       period: '2021 - 2022',
-      title: 'Full-stack Engineer',
+      title: 'Fullstack Software Developer',
       company: 'IT-Designers',
       summary:
-        'Built a prototype of the E-prescription based on Hyperledger-Fabric Blockchain, including Front- and Backend.',
+        'Built a modular, blockchain-backed prototype for the German e-prescription system using Hyperledger Fabric, delivered as a complete end-to-end application including verification workflows.',
       highlights: [
-        'Designed the complete application using VueJS, ExpressJS, Hyperledger-Fabric Blockchain',
-        'Crafted self-explaining layouts and accessible UI with reuseable compontents', 
-        'Shipped everything as a standalone cross-plattform executable with build-in verification using NeutralinoJS',
+        'Designed and implemented a Hyperledger Fabric architecture enabling secure storage and validation of electronic prescriptions',
+        'Developed a modular ExpressJS backend with reusable services and clearly separated API layers', 
+        'Created a VueJS and NeutralinoJS desktop application featuring a component-driven UI for doctors and pharmacies, and patients',
+        'Built reusable frontend components to ensure maintainability and consistent UX across all user roles',
+        'Integrated full blockchain-based verification and delivered a functional prototype as a cohesive application'
       ],
-      tech: ['TypeScript', 'VueJS', 'ExpressJS', 'Node', 'Vite', 'Hyperledger-Fabric', 'Blockchain', 'NeutralinoJS'],
+      tech: ['Hyperledger Fabric', 'ExpressJS', 'VueJS', 'NeutralinoJS', 'Node.js'],
     },
     {
-      period: '2020',
-      title: 'Frontend Architect',
-      company: 'Nova Launch',
+      period: '2020 - now',
+      title: 'Game Content Creator',
+      company: 'The Settlers 5 Multiplayer Community',
       summary:
-        'Delivered a modular marketing site and interactive product showcase for a launch-ready SaaS brand.',
+        'Creation of custom game content for the Siedler 5 multiplayer ecosystem, including advanced mods, unique maps, and extended gameplay features.',
       highlights: [
-        'Implemented a component-based design system with reusable cards, buttons, and hero sections',
-        'Built content-driven project pages, archive views, and client-side navigation enhancements',
-        'Added cross-browser polish and performance tuning with image optimization and lazy loading',
+      'Designed and developed custom mods introducing new mechanics, balance adjustments, and extended gameplay functionality',
+      'Created high-quality multiplayer maps with unique layouts, scripted events, and optimized player flow',
+      'Built custom Lua scripts to enhance game logic, trigger dynamic scenarios, and support mod functionality',
+      'Collaborated with community creators to refine content, improve visual and gameplay consistency, and expand the available mod library',
+      'Produced creative in-game assets and variations to enrich the multiplayer experience and support long-term community engagement'
       ],
-      tech: ['Astro', 'TypeScript', 'Tailwind CSS', 'Node', 'Vite'],
+      tech: [ 'Lua', 'Custom S5 Modding Tools', 'S5 Map Editor', 'Game Scripting', 'Level design'],
     },
-    {
-      period: '2023',
-      title: 'UI Engineer',
-      company: 'Orbital Creative',
-      summary:
-        'Created an interactive product showcase with a clean visual system and accessible component library.',
-      highlights: [
-        'Built a flexible project card system for content updates without code changes',
-        'Improved brand consistency with typography, color, and motion guidelines',
-        'Added testing and quality checks for cross-device UI fidelity',
-      ],
-      tech: ['Astro', 'Tailwind CSS', 'JavaScript', 'Node', 'Vitest'],
-    },
+
+
+
+
+
+
+  {
+    period: '2021',
+    title: 'MEVN Classifieds Application',
+    company: 'Hochschule Esslingen - Team Project',
+    summary:
+      'Development of a university-internal classifieds platform using the MEVN stack, featuring modular components, secure data handling, and a clean user experience.',
+    highlights: [
+      'Built a full MEVN application with MongoDB persistence, ExpressJS API, VueJS frontend, and NodeJS runtime',
+      'Implemented reusable Vue components and a modular frontend architecture',
+      'Designed REST endpoints for listing creation, search, user management, and moderation workflows',
+      'Integrated proper authentication and validation'
+    ],
+    tech: ['MongoDB', 'ExpressJS', 'VueJS', 'NodeJS']
+  },
+
+  {
+    period: '2022 - 2023',
+    title: 'Modular Fullstack Techstack & Kubernetes Deployment',
+    company: 'Hochschule Esslingen - Duo Project',
+    summary:
+      'Creation of a modular fullstack ecosystem combining VueJS, Python services, MongoDB storage, and Docker-based containerization deployed in Kubernetes.',
+    highlights: [
+      'Designed a multi-service architecture with isolated frontend, backend, and database modules',
+      'Implemented Python microservices with REST interfaces and containerized them via Docker',
+      'Deployed the full stack into a Kubernetes cluster with automated scaling and monitoring'
+    ],
+    tech: ['VueJS', 'Python', 'MongoDB', 'Docker', 'Kubernetes']
+  },
+
+  {
+    period: '2023 - 2024',
+    title: 'Game Development - The Settlers 5 Custom Map & Documentation',
+    company: 'Hochschule Esslingen - Research Project',
+    summary:
+      'Creation of a fully scripted Siedler 5 map including custom mechanics, Lua logic, debugging workflows, and extensive documentation.',
+    highlights: [
+      'Developed a custom S5 map with unique gameplay events, triggers, and balancing',
+      'Implemented Lua scripts for game logic, scenario progression, and dynamic interactions',
+      'Used the S5 Map Editor and Lua Debugger for iterative testing and refinement',
+      'Produced a complete technical documentation covering design, scripting, debugging, and testing'
+    ],
+    tech: ['Lua', 'S5 Map Editor', 'Lua Debugger', 'Game Scripting', 'Testing']
+  },
+
+  {
+    period: '2024 - 2025',
+    title: 'Bachelor Thesis - Software Testing Automation',
+    company: 'Hochschule Esslingen - Bachelor Thesis',
+    summary:
+      'Research and implementation of automated software testing strategies, applied to the university\'s website.',
+    highlights: [
+      'Analyzed modern testing methodologies and automation strategies',
+      'Built automated test suites using Selenium and Playwright',
+      'Evaluated reliability, maintainability, and performance of both frameworks',
+      'Applied tests to real-world scenarios on the university website'
+    ],
+    tech: ['Selenium', 'Playwright', 'Software Testing', 'Automation']
+  },
+  
+  {
+    period: '2023',
+    title: 'Java REST API Application',
+    company: 'Hochschule - OEM Integration Project',
+    summary:
+      'Development of a Java-based REST API in combination with webservers (JSP, Jax Rs, Quarkus) and persistance storage.',
+    highlights: [
+      'Implemented REST endpoints with Java and created custom an OEM library',
+      'Designed a layered architecture with clear separation of concerns',
+      'Integrated custom logic and ensured stable communication flows',
+      'Added validation, error handling, and documentation'
+    ],
+    tech: ['Java', 'REST API', 'OEM Integration', 'Jax', 'Quarkus', 'JSP']
+  },
+
+  {
+    period: '2023 - 2024',
+    title: 'C# Full Software Architecture Project',
+    company: 'Hochschule Esslingen - Advanced Software Engineering',
+    summary:
+      'Creation of a complete C# application including architecture design and testing.',
+    highlights: [
+      'Designed a full software architecture',
+      'Implemented unit tests to make sure all layers of the application work accordingly',
+      'Built reusable code and ensured long-term maintainability',
+      'Documented architecture decisions and testing strategies'
+    ],
+    tech: ['C#', 'Software Architecture', 'Testing', 'Documentation']
+  },
+
+  {
+    period: '2018 - 2022',
+    title: 'Private Reverse-Engineered Cheat Tool',
+    company: 'Private Project',
+    summary:
+      'Development of a private C# cheat tool created through reverse engineering, focusing on memory inspection, offsets, and memory manipulation.',
+    highlights: [
+      'Performed reverse engineering to extract required game data and memory offsets',
+      'Built a C# application for manipulating game state on multiple layers',
+      'Implemented safety checks, UI elements, and modular features',
+      'Used debugging tools and memory scanners for analysis'
+    ],
+    tech: ['C#', 'Reverse Engineering', 'Memory Analysis', 'IDA (Interactive Disassembler)']
+  },
+
+  {
+    period: '2023',
+    title: 'C# Static Input Overlay for Streaming',
+    company: 'Private Project',
+    summary:
+      'Creation of a static input overlay used in Twitch streams to visualize inputs in real time.',
+    highlights: [
+      'Developed a lightweight C# application for real-time input visualization',
+      'Designed a clean and minimalistic UI suitable for streaming overlays',
+      'Optimized rendering for low-latency input feedback',
+      'Used during personal Twitch streams for viewer interaction'
+    ],
+    tech: ['C#', 'UI Development', 'Input Tracking']
+  }
   ],
+
   featuredProjects: [
     {
       title: 'Lumen Studio Website',
