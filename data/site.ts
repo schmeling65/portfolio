@@ -77,22 +77,50 @@ export const site = {
       title: 'Game Content Creator',
       company: 'The Settlers 5 Multiplayer Community',
       summary:
-        'Creation of custom game content for the Siedler 5 multiplayer ecosystem, including advanced mods, unique maps, and extended gameplay features.',
+        'Creation of custom game content for the Siedler 5 ecosystem, including advanced mods, unique maps, and extended gameplay features.',
       highlights: [
       'Designed and developed custom mods introducing new mechanics, balance adjustments, and extended gameplay functionality',
-      'Created high-quality multiplayer maps with unique layouts, scripted events, and optimized player flow',
+      'Created high-quality maps with unique layouts, scripted events, and optimized player flow',
       'Built custom Lua scripts to enhance game logic, trigger dynamic scenarios, and support mod functionality',
       'Collaborated with community creators to refine content, improve visual and gameplay consistency, and expand the available mod library',
-      'Produced creative in-game assets and variations to enrich the multiplayer experience and support long-term community engagement'
+      'Produced creative in-game assets and variations to enrich the single- and multiplayer experience and support long-term community engagement'
       ],
       tech: [ 'Lua', 'Custom S5 Modding Tools', 'S5 Map Editor', 'Game Scripting', 'Level design'],
     },
 
 
 
+    {
+      period: '2016 - 2025',
+      title: 'Work during Studies',
+      company: 'Hochschule Esslingen - Projects',
+      summary:
+        'Development of different software solutions during my studies in all kinds of environments and technologies.',
+      highlights: [
+        'Built of a university-internal classifieds platform using the MEVN stack',
+        'Designed a multi-service architectures with isolated frontend, backend, and database modules using but not limited to VueJS, Python, MongoDB and Docker (Kubernetes cluster)',
+        'Research Project: Creation of a fully scripted Siedler 5 map including custom mechanics, Lua logic, debugging workflows, and extensive documentation',
+        'Bachelor Thesis: Research and implementation of automated software testing strategies, applied to the university\'s website.',
+        'Created a complete .Net application including architecture design and testing.'
+      ],
+      tech: ['Typescript', 'NodeJS', 'C#', 'Software Architecture', 'Fullstack', 'Testing']
+    },
+    {
+      period: '',
+      title: 'Personal projects',
+      company: '',
+      summary:
+        'Development of personal projects using all kinds of technolgy and methods.',
+      highlights: [
+        'Built a static input overlay used for streaming show keyboard input in real time',
+        'Created a private cheat Tool for COD MW3 (2011) using memory manipulation and reverse engineering',
+        'Prototyping a RPG-Game from scratch comparable to RPG Maker'
+      ],
+      tech: ['C#', 'IDA', 'Typescript', 'NodeJS', 'Reverse Engineering']
+    }
 
 
-
+/*
   {
     period: '2021',
     title: 'MEVN Classifieds Application',
@@ -151,7 +179,7 @@ export const site = {
     ],
     tech: ['Selenium', 'Playwright', 'Software Testing', 'Automation']
   },
-  
+
   {
     period: '2023',
     title: 'Java REST API Application',
@@ -211,6 +239,7 @@ export const site = {
     ],
     tech: ['C#', 'UI Development', 'Input Tracking']
   }
+    */
   ],
 
   featuredProjects: [
