@@ -20,7 +20,7 @@ export const site = {
     role: 'Full-stack & Software engineer',
     tagline: 'From experimentation to execution; fresh concepts, accessible design, and systems that evolve.',
     contact: 'Contact me via',
-    avatarSrc: '/profilimg.png',
+    avatarSrc: '/portfolio/profilimg.png',
     avatarAlt: 'Markus Rumpel',
   },
   about: {
@@ -307,7 +307,7 @@ export const site = {
     intro: 'A concise archive of engagements and representative work.',
   },
   projectArchive: [
-    { date: '2026', project: 'Portfolio website', link: 'private',role: 'Frontend', techStack: 'Astro, CSS, HTML, JS' },
+    { date: '2026', project: 'Portfolio website', link: 'https://schmeling65.github.io/portfolio/',role: 'Frontend', techStack: 'Astro, CSS, HTML, JS' },
     { date: '2025', project: 'RPG project', link: 'https://github.com/schmeling65/RPG-Game-Project',role: 'Game Developer', techStack: 'Typescript, Vite, PixiJS, NeutralinoJS' },
     { date: '2024', project: 'Bachelor thesis - Automated Testing Playwright', link: 'https://github.com/schmeling65/Bachlorarbeit-Hochschule-Esslingen-Code-Playwright',role: 'Data', techStack: 'Typescript/Javascript, Playwright' },
     { date: '2024', project: 'Bachelor thesis - Automated Testing Selenium', link: 'https://github.com/schmeling65/Bachlorarbeit-Hochschule-Esslingen-Code-Selenium',role: 'Data', techStack: 'Typescript/Javascript, Selenium' },
