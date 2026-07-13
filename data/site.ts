@@ -316,10 +316,13 @@ export const site = {
     { date: '2024', project: 'Siedelwood QSB', link:'https://github.com/Siedelwood/QSB', role:'Lead Developer', techStack: 'Lua, Markdown, LuaDebugger, Github Workflows'},
     { date: '2024', project: 'Static Input Overlay for Streaming', link:'https://github.com/schmeling65/Simple-C--Input-Overlay', role: "Software Engineer", techStack: 'C#'},
     { date: '2023', project: 'Softwarearchitecture C#', link: 'https://github.com/schmeling65/Systemarchitektur-mit-.Net',role: 'Software Engineer', techStack: 'C#, UnitTests' },
+    { date: '2023', project: 'Asterix & Obelix XXL Randomizer Mod', link:'https://www.youtube.com/watch?v=0BQS6CCgWNE', role: 'Tester', techStack: 'Usertests on difficulty and playability'},
     { date: '2022', project: 'Siedelwood', link: 'https://siedelwood-3000.de/', role: 'Administrator', techStack: 'Wordpress, Discord, Lua '},
     { date: '2022', project: 'Distributed systems', link:'https://github.com/schmeling65/VerteilteSystemeLabor', role: "Fullstack Engineer", techStack: 'VueJS, FastAPI, MongoDB, Docker'},
     { date: '2022', project: 'Call of Duty: Modern Warfare 3 (2008) Cheat Tool', link: 'private',role: 'Software Engineer', techStack: 'C#, I(nteractive) D(is)A(ssemlber), Asm' },
+    { date: '2021', project: 'The Settlers 5 Multiplayer Community', link:'https://discord.gg/utBbZzh', role: 'Supporter, Moderator, Administrator, Content creator', techStack: 'Discord, Lua, First- and Second-Level Support, Administration, C#'},
     { date: '2021', project: 'University-internal classifieds platform', link: 'https://github.com/schmeling65/Project-SWB', role:'Fullstack Developer', techStack: 'MongoDB, ExpressJS, VueJS, NodeJS'},
+    { date: '2021', project: 'Asterix & Obelix Unfair XXL', link: 'https://www.youtube.com/watch?v=JCD1AaEYK3E', role: 'Tester', techStack: 'Usertests on difficulty and playability'},
     { date: '2020', project: 'Softwarearchitecture Java', link: 'https://github.com/schmeling65/SoftwareArchitecture', role: "Software Engineer", techStack: 'Java, Quarkus, JSP, REST'},
     { date: '2020', project: 'The Settlers 5 - Base Game Hard Campaign', link:'https://github.com/schmeling65/S5-hard-campaign-basegame', role: 'Game Developer', techStack: 'Lua, Mapeditor Tools, LuaDebugger, XML'},
     { date: 'Different', project: 'Different private projects. Contact me for more informations.', link: 'private', role: 'Software Engineer', techStack: 'C#, NeutralinoJS, Typescript, Lua, XML'}

@@ -13,9 +13,16 @@ import SiteIntro from './SiteIntro.astro';
           {
             navLinks.map((link) => (
               <li>
+                { link.href.includes('#') ? (
                 <a href={`${import.meta.env.BASE_URL}${link.href}`} class="nav-link" data-section-link>
                   <span>{link.label}</span>
                 </a>
+                ) : (
+                  <a href={`${import.meta.env.BASE_URL}${link.href}`} class="nav-link" style="color:var(--color-accent)" data-section-link>
+                  <span>{link.label}</span>
+                </a>
+                )
+                }
               </li>
             ))
           }
