@@ -3,7 +3,7 @@ import tailwindcss from '@tailwindcss/vite';
 import icon from 'astro-icon';
 
 export default defineConfig({
-  site: 'https://<schmeling65>.github.io',
+  site: 'https://schmeling65.github.io',
   base: '/portfolio',
   output: 'static',
   vite: {
