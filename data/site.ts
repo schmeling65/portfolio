@@ -245,7 +245,7 @@ export const site = {
   featuredProjects: [
     {
       title: 'The Settlers 5 - Hard campaigns',
-      period: '2022 - 2021',
+      period: '2021 - Now',
       summary: 'Reworked the campaigns to a higher difficulty introducing new mechanics and level design patterns.',
       solution: 'Redesigned and re-scripted maps with the mapeditor, lua-codeeditor and ensuring consistency by testing with the LuaDebugger.',
       impact: 'Achieved a rise of difficulty in other maps and general gameplay which also lead to an increased number of new game mechanics.',
@@ -283,7 +283,7 @@ export const site = {
     },
     {
       title: 'Siedelwood plattform',
-      period: '2022 - now',
+      period: '2022 - Now',
       summary: 'Delivered a plattform for the games The Settlers 5 and 6 offering content, customer support and a place to come together.',
       solution: 'Implemented a PHP-based content architecture with dynamically generated project pages, enabling seamless content updates without developer involvement.',
       impact: 'Enabled content updates by users outside of the platform and empowered the S5 and S6 community to independently maintain and expand project content, strengthening collaboration and accelerating feature delivery across the genre.',
