@@ -244,40 +244,59 @@ export const site = {
 
   featuredProjects: [
     {
-      title: 'Lumen Studio Website',
-      period: '2025',
-      summary: 'Built a polished portfolio experience with accessible UI, motion-led interactions, and reusable components.',
-      solution: 'Designed a modular component system with Astro and Tailwind CSS, ensuring consistent brand experience across all breakpoints.',
-      impact: 'Achieved sub-1s page load metrics and 95+ Lighthouse scores through optimized asset delivery and lazy loading strategies.',
-      image: 'astro-01.webp',
-      imageAlt: 'Lumen Studio website showcase',
+      title: 'The Settlers 5 - Hard campaigns',
+      period: '2022 - 2021',
+      summary: 'Reworked the campaigns to a higher difficulty introducing new mechanics and level design patterns.',
+      solution: 'Redesigned and re-scripted maps with the mapeditor, lua-codeeditor and ensuring consistency by testing with the LuaDebugger.',
+      impact: 'Achieved a rise of difficulty in other maps and general gameplay which also lead to an increased number of new game mechanics.',
+      image: 'basegamehardcampaign1.jpg',
+      imageAlt: 'Hard Base game camapaign',
+      techCategories: [
+        {
+          category: 'Game Engineering',
+          items: ['Lua', 'XML', 'Level-/Mapeditor Tools', ]
+        },
+        {category: 'Methods',
+          items: ['OOP', 'Agile Development', 'Design Thinking', 'Feature Driven Development']
+        }
+      ]
+    },
+    {
+      title: 'Fullstack prototype - the german e-prescription',
+      period: '2021 - 2022',
+      summary: 'Built a prototype for the German e-prescription system with front-, backend, remote storage and executable application.',
+
+      solution: 'Designed a modular system with VueJS, ExpressJS, Hyperledger Fabric Blockchain and NeutralinoJS, ensuring consistent experience across all levels of software.',
+      impact: 'Achieved a fully working prototype that shows a potential implementation of the german e-prescription.',
+      image: 'hyperledger_fabric_logo.webp',
+      imageAlt: 'Fullstack prototype - the german e-prescription',
       techCategories: [
         {
           category: 'Frontend',
-          items: ['TypeScript', 'Astro', 'Tailwind CSS', 'Responsive Design'],
+          items: ['TypeScript', 'VueJS', 'NeutralinoJS'],
         },
         {
-          category: 'Performance',
-          items: ['Asset Optimization', 'Lazy Loading', 'Image CDN'],
+          category: 'Backend',
+          items: ['ExpressJS', 'Hyperledger Fabric Blockchain', 'Docker', 'Bash/Shell'],
         },
       ],
     },
     {
-      title: 'Nova Launch Marketing Platform',
-      period: '2024',
-      summary: 'Delivered a modular marketing site and interactive product showcase for a launch-ready SaaS brand.',
-      solution: 'Implemented a content-driven architecture with reusable card components and dynamic project pages, enabling non-technical content updates.',
-      impact: 'Reduced content update time by 80% through intuitive component-based structure; enabled marketing team independence.',
-      image: 'astro-02.jpeg',
-      imageAlt: 'Nova Launch platform interface',
+      title: 'Siedelwood plattform',
+      period: '2022 - now',
+      summary: 'Delivered a plattform for the games The Settlers 5 and 6 offering content, customer support and a place to come together.',
+      solution: 'Implemented a PHP-based content architecture with dynamically generated project pages, enabling seamless content updates without developer involvement.',
+      impact: 'Enabled content updates by users outside of the platform and empowered the S5 and S6 community to independently maintain and expand project content, strengthening collaboration and accelerating feature delivery across the genre.',
+      image: 'siedelwood-logo-dark-1.webp',
+      imageAlt: 'Siedelwood plattform',
       techCategories: [
         {
-          category: 'Frontend',
-          items: ['Astro', 'TypeScript', 'Tailwind CSS'],
+          category: 'Website',
+          items: ['PHP', 'Wordpress', 'HTML + CSS + JS'],
         },
         {
-          category: 'Developer Experience',
-          items: ['Vite', 'ESLint', 'Automated Testing'],
+          category: 'Plattform and Content',
+          items: ['Discord', 'C#', 'Lua', 'Typescript'],
         },
       ],
     },
