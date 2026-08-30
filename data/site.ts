@@ -307,6 +307,7 @@ export const site = {
     intro: 'A concise archive of engagements and representative work.',
   },
   projectArchive: [
+    { date: '2026', project: 'VSCode Extension S5LuaDebugger via DAP (see README file)', link: 'https://github.com/mcb5637/S5DebugAdaptor',role: 'Frontend Developer for VSCode side', techStack: 'Typescript/Javascript, VSCE, NodeJS, YAML (CI/CD)'},
     { date: '2026', project: 'Portfolio website', link: 'https://schmeling65.github.io/portfolio/',role: 'Frontend', techStack: 'Astro, CSS, HTML, JS' },
     { date: '2025', project: 'RPG project', link: 'https://github.com/schmeling65/RPG-Game-Project',role: 'Game Developer', techStack: 'Typescript, Vite, PixiJS, NeutralinoJS' },
     { date: '2024', project: 'Bachelor thesis - Automated Testing Playwright', link: 'https://github.com/schmeling65/Bachlorarbeit-Hochschule-Esslingen-Code-Playwright',role: 'Data', techStack: 'Typescript/Javascript, Playwright' },
@@ -325,7 +326,7 @@ export const site = {
     { date: '2021', project: 'Asterix & Obelix Unfair XXL', link: 'https://www.youtube.com/watch?v=JCD1AaEYK3E', role: 'Tester', techStack: 'Usertests on difficulty and playability'},
     { date: '2020', project: 'Softwarearchitecture Java', link: 'https://github.com/schmeling65/SoftwareArchitecture', role: "Software Engineer", techStack: 'Java, Quarkus, JSP, REST'},
     { date: '2020', project: 'The Settlers 5 - Base Game Hard Campaign', link:'https://github.com/schmeling65/S5-hard-campaign-basegame', role: 'Game Developer', techStack: 'Lua, Mapeditor Tools, LuaDebugger, XML'},
-    { date: 'Different', project: 'Different private projects. Contact me for more informations.', link: 'private', role: 'Software Engineer', techStack: 'C#, NeutralinoJS, Typescript, Lua, XML'}
+    { date: 'Different', project: 'Different private projects. Contact me for more informations.', link: 'private', role: 'Software Engineer', techStack: 'C#, NeutralinoJS, Typescript, Lua, XML'},
   ],
   contact: {
     email: 'markusrumpel2@gmail.com',
